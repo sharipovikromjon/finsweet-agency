@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
+import logo from './assets/header-logo.svg'
 
 export const App = () => {
   return (
     <div>
-      <h1>App</h1>
+      <Header logo={logo} />
     </div>
-  )
-}
-
+  );
+};
